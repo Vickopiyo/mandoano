@@ -39,6 +39,7 @@ const getLongestName = useMemo(()=> findLongestName(data),[data])
         {/* <div>{findLongestName(data)}</div> */}
 
       {/* memoised func */}
+      {/* use memo retuens a value */}
 
         <div>{getLongestName}</div>
         

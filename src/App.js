@@ -5,13 +5,14 @@
 // import UseLayoutEffect from "./components/UseLayoutEffect";
 // import UseImperativeHandle from "./components/UseImperativeHandle";
 // import UseContext from "./components/UseContext";
-import UseMemo from "./components/UseMemo";
+// import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 function App() {
   return (
     
     <div className="App">
-      <UseMemo />
+      <UseCallback />
     </div>
   );
 }
