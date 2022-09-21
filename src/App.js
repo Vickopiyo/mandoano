@@ -1,14 +1,15 @@
 // import UseState from "./components/UseState";
 // import Usereducer from "./components/Usereducer";
-import UseEffect from "./components/UseEffect";
+// import UseEffect from "./components/UseEffect";
+import UseRef from "./components/UseRef";
 
 function App() {
   return (
     <div className="App">
-      <UseEffect />
     
+     <UseRef />
     </div>
   );
 }
 
-export default App;
+export default App;  
